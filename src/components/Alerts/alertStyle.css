@@ -1,0 +1,123 @@
+.alertStyling {
+    position: fixed;
+    top: 80px;
+    left: auto;
+}
+
+div.alertstyleDanger {
+    margin-left: 110px;
+    width: 24%;
+    z-index: 11000;
+    color: red !important;
+    background-color: white !important;
+    border-radius: 9px;
+    box-shadow: 0 1px 15px 1px #6c757d40;
+}
+
+.alertDivs {
+    text-align: center !important;
+    width: 500px;
+    margin: 3px auto;
+}
+
+div#Alert1 {
+    border: 1px solid green;
+    color: green;
+    background-color: white !important;
+    border-radius: 9px;
+    margin-left: 105px;
+}
+
+div.AlertSuccess2 {
+    color: green;
+    background-color: white !important;
+    border-radius: 9px;
+    margin-left: 105px;
+    z-index: 11000;
+    width: 24%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    box-shadow: 0 1px 15px 1px #6c757d40;
+}
+
+img#imgSuccess {
+    width: 18%;
+    margin: 2% 0;
+}
+
+img#imgDanger {
+    width: 18%;
+    margin: 2% 0;
+}
+
+img#imgLoading {
+    width: 18%;
+    margin: 2% 0;
+}
+
+div#AlertDanger {
+    color: red;
+    background-color: white !important;
+    border-radius: 9px;
+    margin-left: 105px;
+    text-align: center;
+    box-shadow: 0 1px 15px 1px #6c757d40;
+    z-index: 11000;
+    text-align: center;
+}
+
+.alertLoaderText {
+    color: #349ec9;
+    font-weight: bold;
+}
+
+.dangerText {
+    color: red;
+    font-weight: 600;
+}
+
+.alertPadding {
+    padding-left: 500px;
+}
+
+.alertSuccessText {
+    color: green;
+    font-weight: 600;
+}
+
+.alertLoadingText {
+    color: #2d69eb;
+    font-weight: 600;
+}
+
+img#imgSuccessmark {
+    width: 10%;
+}
+
+button.btn.btn-light1 {
+    background: #D6E5ED;
+    color: #44677B;
+}
+
+button.btn.do-it {
+    background: transparent;
+    color: #44677B;
+}
+
+.line-23 {
+    line-height: 22px;
+}
+
+.close-right {
+    text-align: right;
+    color: #507a90;
+    font-size: 16px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.sucesstext {
+    color: green;
+    font-weight: 600;
+}
+

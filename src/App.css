@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+button.btn.btn-primary {
+  background: #507a90;
+  border: 1px solid #44667ac4;
+  font-size: 13px;
+}
+button.btn.btn-primary.btn-square.shadow-sm.btncolor {
+  padding-right: 42px;
+  padding-left: 40px;
+  margin-top: 10px;
+  background-color: #44677b;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+  background: #507a90;
+  border: 1px solid #44667ac4;
+}
+.choose-file {
+  padding-right:10px
+}
+.upload-file{
+  padding-right:10px
+}
+.margin-t-30{
+  margin-top: 30px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h3{
+  margin-left: 15px;
+}
+.fileInput{
+  border-bottom: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+  
+.imgPreview{
+  text-align: center;
+  margin: 5px 15px;
+  /* height: 1024;
+  width: 1024; */
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-top: 5px solid gray;
+  border-bottom: 5px solid gray;
+}
+  /* img{
+    width: 1024px;
+    height: 1024px;
+} */
+.previewText{
+  width: 100%;
+  margin-top: 20px;
+}
+.submitButton{
+  padding: 12px;
+  margin-left: 10px;
+  background: white;
+  border: 4px solid lightgray;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 10pt;
+  cursor: pointer;
+}
+.centerText{
+  text-align: center;
+  /* width: 1024px; */
+}
+.sub-parent-div{
+  display: flex;
+  justify-content: space-between;
+}
+.width-decrease{
+  width: 100%;
+}
+.initial-image-preview{
+max-width: 1024px;
+overflow: hidden;
+}
