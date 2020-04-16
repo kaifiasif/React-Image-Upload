@@ -67,8 +67,7 @@ class inputFile extends Component {
   // Upload File Function
   fileUploadHandler = () => {
     let { dimensions } = this.state;
-    console.log('Dia', dimensions);
-    console.log('Selected File', this.state.file);
+
     if (dimensions.height === 1024 && dimensions.width === 1024) {
       this.onShowAlert();
       this.setState({

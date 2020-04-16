@@ -33,7 +33,6 @@ export class AlertDanger extends Component {
 	}
 
 	render() {
-		console.log('f;ldsajflkdsbaf', this.props.show);
 		let alertFlag = this.state.alertFlag;
 		return alertFlag ? (
 			<div>
