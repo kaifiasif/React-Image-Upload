@@ -4,7 +4,7 @@ const NavbarItem = () => {
   return (
     <Navbar expand="lg" variant="light" bg="light">
       <Container>
-        <Navbar.Brand href="#">Paytm Insider Assignment </Navbar.Brand>
+        <Navbar.Brand href="#">React Image Upload </Navbar.Brand>
       </Container>
     </Navbar>
   );
