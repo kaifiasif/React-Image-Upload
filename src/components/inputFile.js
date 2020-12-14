@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Image from 'react-image-resizer';
-import NavbarItem from './Navbar Compoment/NavbarItem';
+import NavbarItem from './Navbar/NavbarItem';
 import AlertSuccess from './Alerts/alertSuccess';
 import AlertWarning from './Alerts/alertDanger';
 
